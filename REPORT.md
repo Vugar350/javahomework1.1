@@ -17,14 +17,22 @@
 * Шаги:
 * 1)Зайти в IDEA
   2) Ввести код:
+  
   class Main {
-    public static void main(String[] args) {
-        int balance =2000000000;
-        int transfer = 500000000;
-        int total = balance + transfer;
-        System.out.println(total);
-    }
-}
+   
+  public static void main(String[] args) {
+       
+  int balance =2000000000;
+        
+  int transfer = 500000000;
+       
+  int total = balance + transfer;
+       
+  System.out.println(total);
+   
+  }
+
+  }
 * ОР: баланс=2,5 млрд
 
 
