@@ -15,10 +15,17 @@
 * тест кейс :"Корректность пополнения баланса счета"
 * Условия:"На балансе 2млрд"
 * Шаги:
-* 1)Пополнение счета на 500 млн
+* 1)Зайти в IDEA
+  2) Ввести код:
+  class Main {
+    public static void main(String[] args) {
+        int balance =2000000000;
+        int transfer = 500000000;
+        int total = balance + transfer;
+        System.out.println(total);
+    }
+}
 * ОР: баланс=2,5 млрд
-
-
 
 
 
